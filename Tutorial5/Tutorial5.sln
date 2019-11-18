@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial5", "Tutorial5.csproj", "{9C1DF2E5-C3F9-47EE-AD7D-9ED28F7300A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	Tools|Any CPU = Tools|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1DF2E5-C3F9-47EE-AD7D-9ED28F7300A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1DF2E5-C3F9-47EE-AD7D-9ED28F7300A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1DF2E5-C3F9-47EE-AD7D-9ED28F7300A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1DF2E5-C3F9-47EE-AD7D-9ED28F7300A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1DF2E5-C3F9-47EE-AD7D-9ED28F7300A5}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
+		{9C1DF2E5-C3F9-47EE-AD7D-9ED28F7300A5}.Tools|Any CPU.Build.0 = Tools|Any CPU
+	EndGlobalSection
+EndGlobal

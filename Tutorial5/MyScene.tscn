@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Sprite.cs" type="Script" id=2]
+[ext_resource path="res://Button.cs" type="Script" id=3]
+
+[node name="Node" type="Node"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 106, 140 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 48.0
+margin_top = 27.0
+margin_right = 127.0
+margin_bottom = 47.0
+text = "Some Text"
+script = ExtResource( 3 )
