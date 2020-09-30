@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Test.cs" type="Script" id=2]
+
+[node name="Parent" type="Sprite"]
+position = Vector2( 100, 100 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Child1" type="Sprite" parent="."]
+position = Vector2( 120, 108 )
+rotation = -0.897099
+texture = ExtResource( 1 )
+centered = false
+script = ExtResource( 2 )
+
+[node name="Child2" type="Sprite" parent="."]
+position = Vector2( 303, 141 )
+texture = ExtResource( 1 )
+centered = false
